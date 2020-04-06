@@ -1,0 +1,16 @@
+#error {
+  display: none;
+  background-image: url("../img/bg.gif");
+  width: 80vw;
+  text-align: center;
+  margin: 10vw;
+  border: 1px solid white; }
+  #error p {
+    text-align: center;
+    color: white; }
+  #error #backtoIndex {
+    margin-top: 20%; }
+    #error #backtoIndex a {
+      color: red;
+      text-decoration: none;
+      font-size: 30px; }

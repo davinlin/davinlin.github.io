@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=0">
+    <meta charset="utf-8">
+    <title id="head">幽魂聊天室</title>
+    <link rel="shortcut icon" href="img/ICO.ico">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/error.css">
+    <!-- 關鍵字 -->
+    <meta name="keywords" content="幽魂,聊天室,好兄弟,劉皪,林耿弘,招魂儀式,幽魂聊天室,跟鬼講話,前世死法,前世死因,鬼合成照,象山青年,儀式,鬼月活動,米蘭實習生,蠟燭圓鏡招魂,鬼對話,招魂,召喚鬼魂">
+    <meta name="description" content="只要在午夜一點二十五分拿著一個圓鏡和蠟燭，面對牆壁，將蠟點在圓鏡的四個對角，盯著鏡中的自己直到畫面開始模糊，鬼魂會慢慢顯現在鏡子裡。與祂對話後，祂將告訴你前世死亡的原因。">
+    <meta name="author" content="林耿弘、劉皪">
+
+    <!-- fb -->
+    <meta property="og:title" content="召喚鬼魂，讓祂告訴你前世的死因" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://lab.medialand.com.tw/ghost/" />
+    <meta property="og:image" content="http://lab.medialand.com.tw/ghost/img/preview.jpg" />
+    <meta property="og:site_name" content="幽魂聊天室" />
+    <meta property="og:description" content="只要在午夜一點二十五分拿著一個圓鏡和蠟燭，面對牆壁，將蠟點在圓鏡的四個對角，盯著鏡中的自己直到畫面開始模糊，鬼魂會慢慢顯現在鏡子裡。與祂對話後，祂將告訴你前世死亡的原因。" />
+    <meta property="fb:app_id" content="1742941345981148"/>
+</head>
+
+<body>
+    <div id='background'>
+        <div id='animate'>
+            <!-- 雜訊1 -->
+            <img id='signal' src="img/bg.gif">
+            <!-- 雜訊2 -->
+            <!-- <img id='signal2' src="img/noise3.gif"> -->
+
+            <!-- 小蠟燭 -->
+            <img class='candle' id='candle1' src="img/1.gif">
+            <img class='candle' id='candle2' src="img/2.gif">
+            <img class='candle' id='candle3' src="img/3.gif">
+            <img class='candle' id='candle4' src="img/4.gif">
+            <img class='candle' id='candle5' src="img/5.gif">
+            <img class='candle' id='candle6' src="img/6.gif">
+            <img class='candle' id='mirror' src="img/mirror.png">
+            <!-- 大蠟燭 -->
+            <img class="candle" id='big_candle' src="img/candle.gif">
+
+            <!-- 蠟滴 -->
+            <img class=' drip' id='candle-dripRight' src="img/candle_drip1.png">
+            <img class=' drip' id='candle-dripLeft' src="img/candle_drip2.png">
+            <img class=' drip' id='candle-dripUp' src="img/candle_drip3.png">
+            <img class=' drip' id='candle-dripDown' src="img/candle_drip4.png">
+
+            <!-- 女鬼 -->
+            <img class='candle' id='girl' src="img/girl.png">
+
+
+            <!-- 幽靈聊天室 -->
+            <img id='title' src="img/logo.png">
+            <!-- 聊天室開始 按鈕 -->
+            <a id='next' href="chat.html"><img id='three' src="img/start.png" onclick="this.src='img/startP.png'"></a>
+        </div>
+    </div>
+    <div id='error'>
+        <p>請使用 Google Chrome、</p>
+        <p>Safari 瀏覽器，</p>
+        <p>以正確瀏覽本網站。</p>
+        <p>（勿使用無痕式視窗）</p>
+    </div>
+    <audio id="noise">
+        <source src="music/noise.mp3" type="audio/mpeg">
+    </audio>
+    <script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src='js/error.js'></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script src='js/basic.js'></script>
+</body>
+
+</html>

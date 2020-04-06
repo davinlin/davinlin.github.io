@@ -1,0 +1,195 @@
+@charset "UTF-8";
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  max-width: 600px; }
+
+#animate {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: -15px;
+  /****螢幕比980寬*****/
+  /****螢幕比620px窄****/ }
+  #animate .word {
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute; }
+  #animate #title {
+    width: 430px;
+    padding: 2% 0;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 63%; }
+  #animate img {
+    position: absolute; }
+  #animate #background {
+    width: 100%; }
+  #animate .candle {
+    position: absolute;
+    width: 5%;
+    transform: translateY(-50%); }
+  #animate #candle1 {
+    left: 24%;
+    top: 35%; }
+  #animate #candle2 {
+    right: 24%;
+    top: 35%; }
+  #animate #candle3 {
+    left: 30.5%;
+    top: 11.7%; }
+  #animate #candle4 {
+    right: 30.5%;
+    top: 11.7%; }
+  #animate #candle5 {
+    left: 30.5%;
+    top: 58.3%; }
+  #animate #candle6 {
+    right: 30.5%;
+    top: 58.3%; }
+  #animate #mirror {
+    width: 26%;
+    left: 37%;
+    top: 35%;
+    opacity: 0.7; }
+  #animate #signal {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0; }
+  #animate #signal2 {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0; }
+  #animate #girl {
+    opacity: 0;
+    width: 16%;
+    left: 42%;
+    top: 38%; }
+  #animate .drip {
+    position: absolute;
+    width: 1.5%;
+    transform: translateY(-50%);
+    opacity: 0; }
+  #animate #big_candle {
+    width: 8%;
+    top: 10%;
+    left: 50%; }
+  #animate #candle-dripUp {
+    top: 20%;
+    left: 50%; }
+  #animate #candle-dripLeft {
+    top: 38%;
+    left: 40%; }
+  #animate #candle-dripDown {
+    top: 50%;
+    left: 50%; }
+  #animate #candle-dripRight {
+    top: 37%;
+    left: 60%; }
+  #animate #three {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 3%;
+    padding: 8px;
+    width: 150px; }
+  #animate #three:hover {
+    cursor: pointer; }
+  @media screen and (min-width: 980px) {
+    #animate .candle {
+      width: 4%; }
+    #animate #mirror {
+      width: 26%;
+      left: 37%; } }
+  @media screen and (max-width: 930px) {
+    #animate #candle-dripUp {
+      top: 23%;
+      left: 50%; }
+    #animate #candle-dripLeft {
+      top: 38%;
+      left: 40%; }
+    #animate #candle-dripDown {
+      top: 48%;
+      left: 50%; }
+    #animate #candle-dripRight {
+      top: 37%;
+      left: 60%; } }
+  @media screen and (max-width: 800px) {
+    #animate #mirror {
+      width: 34%;
+      left: 33%; }
+    #animate #girl {
+      opacity: 0;
+      width: 20%;
+      left: 40%;
+      top: 38%; } }
+  @media screen and (max-width: 640px) {
+    #animate #mirror {
+      width: 30%;
+      left: 35%; }
+    #animate #girl {
+      opacity: 0;
+      width: 18%;
+      left: 41%;
+      top: 37%; }
+    #animate #big_candle {
+      width: 11%; }
+    #animate .drip {
+      width: 3%; }
+    #animate #candle-dripUp {
+      top: 30%;
+      left: 50%; }
+    #animate #candle-dripLeft {
+      top: 36%;
+      left: 37%; }
+    #animate #candle-dripDown {
+      top: 43%;
+      left: 50%; }
+    #animate #candle-dripRight {
+      top: 37%;
+      left: 63%; }
+    #animate #three {
+      width: 120px;
+      bottom: 5%; } }
+  @media screen and (max-width: 600px) {
+    #animate .candle {
+      width: 7%; }
+    #animate #candle1 {
+      left: 10%;
+      top: 35%; }
+    #animate #candle2 {
+      right: 10%;
+      top: 35%; }
+    #animate #candle3 {
+      left: 30.5%;
+      top: 16.7%; }
+    #animate #candle4 {
+      right: 30.5%;
+      top: 16.7%; }
+    #animate #candle5 {
+      left: 30.5%;
+      top: 53.3%; }
+    #animate #candle6 {
+      right: 30.5%;
+      top: 53.3%; }
+    #animate #mirror {
+      width: 42%;
+      left: 29%; }
+    #animate #girl {
+      opacity: 0;
+      width: 24%;
+      left: 38%;
+      top: 37%; }
+    #animate #title {
+      width: 300px;
+      top: 66%; } }
+
+#loader {
+  margin-left: 50%;
+  margin-top: 50%;
+  transform: translateX(-50%);
+  transform: translateY(-50%); }

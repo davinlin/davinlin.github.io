@@ -1,0 +1,137 @@
+@charset "UTF-8";
+* {
+  position: relative;
+  font-family: 微軟正黑體;
+  font-weight: 100;
+  line-height: 35px;
+  letter-spacing: 2px;
+  box-sizing: border-box;
+  border-radius: 10px; }
+
+body {
+  background-color: #9B9B9B; }
+
+.resume {
+  background-color: #F2F2F2;
+  width: 800px;
+  height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+  　overflow-y: auto;
+  color: #4C4C4C; }
+
+.top {
+  height: 210px;
+  padding: 50px;
+  background-color: #24B1BC;
+  color: #F2F2F2;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15); }
+
+.top h2 {
+  font-size: 25px;
+  letter-spacing: 25px; }
+
+.top h2 span {
+  font-size: 10px;
+  letter-spacing: 10px; }
+
+.left {
+  display: inline-block;
+  width: 35%;
+  height: 1000px;
+  margin: 0px;
+  top: -200px;
+  padding: 10px;
+  box-sizing: border-box; }
+
+.right {
+  display: inline-block;
+  width: 65%;
+  height: 1000px;
+  margin: 0px;
+  padding: 10px;
+  box-sizing: border-box; }
+
+.button {
+  font-size: 20px;
+  font-size: 100;
+  padding: 7px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  margin-left: 25px;
+  border-radius: 100%;
+  background-color: #F4B651;
+  color: #F2F2F2;
+  letter-spacing: 4px;
+  line-height: 40px;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1); }
+
+.rl {
+  display: inline-block;
+  width: 15%;
+  height: 200px;
+  margin-top: 40px;
+  box-sizing: border-box; }
+
+.rr {
+  display: inline-block;
+  width: 80%;
+  height: 200px;
+  margin-top: 20px;
+  box-sizing: border-box; }
+
+.adobe {
+  width: 40px;
+  height: 90px;
+  padding: 2px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 20px;
+  top: -200px;
+  border-radius: 0px;
+  background-color: #24B1BC;
+  color: #F2F2F2;
+  font-size: 10px;
+  font-weight: 500; }
+
+.chapter {
+  font-size: 20px;
+  font-weight: 500; }
+
+.left li {
+  font-size: 16px;
+  margin-left: 20px; }
+
+.line {
+  background-color: #9B9B9B;
+  height: 10px;
+  margin: 20px;
+  margin-top: 30px; }
+
+#ai {
+  width: 250px; }
+
+#ps {
+  width: 200px; }
+
+#ae {
+  width: 50px; }
+
+#pr {
+  width: 100px; }
+
+.square1 {
+  border: solid 1px #9B9B9B;
+  height: 30px;
+  margin: 20px; }
+
+.square2 {
+  width: 200px;
+  height: 8px;
+  margin: 10px;
+  background-color: #24B1BC; }
+
+.work {
+  font-size: 16px;
+  margin: 20px; }

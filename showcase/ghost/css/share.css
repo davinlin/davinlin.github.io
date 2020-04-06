@@ -1,0 +1,141 @@
+body {
+  background-color: black;
+  margin: 0;
+  text-align: center; }
+  body img {
+    width: 85%; }
+  body #end {
+    margin: 7% 0 5% 0;
+    width: 55%; }
+  body #textOne {
+    margin: 3% 0;
+    margin-top: -2%; }
+  body #video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 8.5%;
+    height: 0;
+    width: 85%;
+    margin-left: 7.5%;
+    overflow: hidden; }
+  body #video iframe,
+  body #video object,
+  body #video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  body #line {
+    position: relative;
+    margin: 5%;
+    z-index: 1; }
+  body #deathPhoto {
+    position: relative;
+    margin-top: 0%;
+    z-index: 0; }
+  body #deathBlock {
+    display: inline-block;
+    position: relative;
+    z-index: -1;
+    width: 85%;
+    margin: 7.5% 0;
+    margin-top: -1%;
+    background-color: white; }
+    body #deathBlock p {
+      position: relative;
+      text-align: left;
+      color: black;
+      width: 92%; }
+    body #deathBlock #title {
+      font-size: 15pt;
+      line-height: 12pt;
+      margin-left: 4%; }
+    body #deathBlock #content {
+      font-size: 10pt;
+      line-height: 12pt;
+      margin-top: -4%;
+      margin-left: 4%; }
+  body #textThree {
+    margin: 3% 0;
+    margin-top: -3%; }
+  body #textOnedown {
+    margin-top: 15px; }
+  body #replay {
+    margin-top: 4%;
+    width: 27%; }
+  body .notThis {
+    display: none; }
+  body #shareBtn {
+    margin-top: 1%;
+    width: 27%; }
+  body #shareBtn:hover {
+    cursor: pointer; }
+  @media screen and (min-width: 500px) {
+    body #deathBlock #content {
+      margin-top: -3%; } }
+  @media screen and (min-width: 620px) {
+    body #deathBlock #content {
+      margin-top: -2.5%; } }
+  @media screen and (min-width: 780px) {
+    body #end {
+      margin: 5% 0;
+      width: 30%; }
+    body #all {
+      display: float; }
+      body #all #deathPhoto {
+        margin-top: -5%; }
+      body #all #video {
+        margin-top: -5.5%;
+        padding-top: 8.5%; }
+      body #all #line {
+        display: none; }
+      body #all #line2 {
+        width: 0.2%;
+        height: 100%;
+        display: inline-block; }
+      body #all #textOnedown {
+        margin-top: 3%; }
+      body #all #replay {
+        margin-top: 4%;
+        width: 27%; }
+    body #showPic {
+      width: 49.5%;
+      float: left;
+      margin-top: 1%; }
+    body #showVideo {
+      width: 49.5%;
+      float: right;
+      margin-top: 1%; } }
+  @media screen and (min-width: 780px) and (max-width: 900px) {
+    body #end {
+      margin: 50px 0; }
+    body #all {
+      margin: 30px 0 0 0; } }
+  @media screen and (min-width: 840px) {
+    body #all #video {
+      padding-top: 7.5%; }
+    body #all #textOnedown {
+      margin-top: 3.4%; }
+    body #all #replay {
+      margin-top: 4.3%;
+      width: 27%; } }
+  @media screen and (min-width: 900px) {
+    body #all #video {
+      padding-top: 5%; }
+    body #all #replay {
+      margin-top: 5.7%;
+      width: 27%; } }
+  @media screen and (min-width: 950px) {
+    body #end {
+      margin: 46px;
+      width: 290px; }
+    body #all {
+      margin: 0px auto;
+      width: 950px; }
+      body #all #video {
+        padding-top: 5%; }
+      body #all #textOnedown {
+        margin-top: 16px; }
+      body #all #replay {
+        margin-top: 4.8%; } }

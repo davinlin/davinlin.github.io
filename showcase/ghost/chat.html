@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=0">
+    <meta charset="utf-8">
+    <title id="head">幽魂聊天室</title>
+    <link rel="shortcut icon" href="img/ICO.ico">
+    <link rel="stylesheet" type="text/css" href="css/chat.css">
+    <script src="js/jquery-3.0.0.min.js"></script>
+</head>
+
+<body>
+	<div id="conversation">
+    </div>
+	<div id="bottom">
+		<!-- text inputing -->
+		<img class="typeBar" id="bar1" src="img/bar_m.png">
+		<img class="typeBar" id="btnSend" src="img/btnSend_m.png" onclick="userSend();">
+		<!-- <input class="typeBar" type="text" id="textInput"> -->
+		<!-- photo uploading -->
+		<img class="photoBar" id="bar2" src="img/bar_m.png">
+		<input  class="photoBar" id="photoInput" type="file" accept="image/*" capture="camera">
+		<input class="photoBar" type="text" id="photoHint" disabled="disabled">
+        <img class="photoBar" id="btnUpload" src="img/btnUpload_m.png" onclick="uploadClicked();">
+	</div>
+
+    <script src='js/chat_rwd.js'></script>
+    <script src='js/basic.js'></script>
+    <script src='js/process.js'></script>
+    <script src="js/flash.js"></script>
+    <script src="js/chat.js"></script>
+    <script src="js/draw.js"></script>
+	<script src="js/uploadImage.js" ></script>  
+    <script src="js/exif.js"></script>
+    <script src="http://code.createjs.com/easeljs-0.7.0.min.js"></script>
+</body>
+
+</html>
